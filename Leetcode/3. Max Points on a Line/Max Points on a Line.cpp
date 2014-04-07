@@ -95,7 +95,7 @@ int main()
 	pp.push_back(p2);
 
 	Point p3(3, 4);
-	pp.push_back(p3);/**/
+	pp.push_back(p3);
 
 	Point p4(-1, 1);
 	pp.push_back(p4);
