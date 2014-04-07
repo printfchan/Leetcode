@@ -10,6 +10,7 @@ struct ListNode {
 
 class Solution {
 public:
+	// O(n log n), O(constant)
 	static ListNode *sortList(ListNode *head) {
 		
 	}
@@ -32,8 +33,13 @@ int main()
 	lp->next = new ListNode(4);
 	lp = lp->next;
 
-	Solution::sortList(&list);
+	lp = Solution::sortList(&list);
 
+	while (lp != NULL)
+	{
+		cout << lp->val << ' ';
+		lp = lp->next;
+	}
 	system("pause");
 	return 0;
 }
