@@ -16,6 +16,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. Max Points on a Line", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4. Sort List", "4. Sort List\4. Sort List.vcxproj", "{D77B9B34-8B21-4ED6-98AB-7E46114FD02F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5. Insertion Sort List", "5. Insertion Sort List\5. Insertion Sort List.vcxproj", "{156047AF-4EAF-437C-A369-A93230380616}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6. LRU Cache", "6. LRU Cache\6. LRU Cache.vcxproj", "{E6E8CD24-D22E-492B-B114-8FDDAF64579C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,6 +42,14 @@ Global
 		{D77B9B34-8B21-4ED6-98AB-7E46114FD02F}.Debug|Win32.Build.0 = Debug|Win32
 		{D77B9B34-8B21-4ED6-98AB-7E46114FD02F}.Release|Win32.ActiveCfg = Release|Win32
 		{D77B9B34-8B21-4ED6-98AB-7E46114FD02F}.Release|Win32.Build.0 = Release|Win32
+		{156047AF-4EAF-437C-A369-A93230380616}.Debug|Win32.ActiveCfg = Debug|Win32
+		{156047AF-4EAF-437C-A369-A93230380616}.Debug|Win32.Build.0 = Debug|Win32
+		{156047AF-4EAF-437C-A369-A93230380616}.Release|Win32.ActiveCfg = Release|Win32
+		{156047AF-4EAF-437C-A369-A93230380616}.Release|Win32.Build.0 = Release|Win32
+		{E6E8CD24-D22E-492B-B114-8FDDAF64579C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6E8CD24-D22E-492B-B114-8FDDAF64579C}.Debug|Win32.Build.0 = Debug|Win32
+		{E6E8CD24-D22E-492B-B114-8FDDAF64579C}.Release|Win32.ActiveCfg = Release|Win32
+		{E6E8CD24-D22E-492B-B114-8FDDAF64579C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

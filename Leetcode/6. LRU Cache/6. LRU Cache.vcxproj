@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{156047AF-4EAF-437C-A369-A93230380616}</ProjectGuid>
+    <ProjectGuid>{E6E8CD24-D22E-492B-B114-8FDDAF64579C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My5InsertionSortList</RootNamespace>
+    <RootNamespace>My6LRUCache</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Insertion Sort List.cpp" />
+    <ClCompile Include="LRU Cache.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
