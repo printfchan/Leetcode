@@ -20,6 +20,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5. Insertion Sort List", "5
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6. LRU Cache", "6. LRU Cache\6. LRU Cache.vcxproj", "{E6E8CD24-D22E-492B-B114-8FDDAF64579C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7. Binary Tree Postorder Traversal", "7. Binary Tree Postorder Traversal\7. Binary Tree Postorder Traversal.vcxproj", "{1E3519DA-656C-4B56-8750-6E84EB499BB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8. Binary Tree Preorder Traversal", "8. Binary Tree Preorder Traversal\8. Binary Tree Preorder Traversal.vcxproj", "{64B09BDF-C997-4E16-A7D3-EB81FCC26CBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9. Reorder List", "9. Reorder List\9. Reorder List.vcxproj", "{0F4F4A61-8C93-442D-9934-7C54D4D3726E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -50,6 +56,18 @@ Global
 		{E6E8CD24-D22E-492B-B114-8FDDAF64579C}.Debug|Win32.Build.0 = Debug|Win32
 		{E6E8CD24-D22E-492B-B114-8FDDAF64579C}.Release|Win32.ActiveCfg = Release|Win32
 		{E6E8CD24-D22E-492B-B114-8FDDAF64579C}.Release|Win32.Build.0 = Release|Win32
+		{1E3519DA-656C-4B56-8750-6E84EB499BB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E3519DA-656C-4B56-8750-6E84EB499BB8}.Debug|Win32.Build.0 = Debug|Win32
+		{1E3519DA-656C-4B56-8750-6E84EB499BB8}.Release|Win32.ActiveCfg = Release|Win32
+		{1E3519DA-656C-4B56-8750-6E84EB499BB8}.Release|Win32.Build.0 = Release|Win32
+		{64B09BDF-C997-4E16-A7D3-EB81FCC26CBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64B09BDF-C997-4E16-A7D3-EB81FCC26CBB}.Debug|Win32.Build.0 = Debug|Win32
+		{64B09BDF-C997-4E16-A7D3-EB81FCC26CBB}.Release|Win32.ActiveCfg = Release|Win32
+		{64B09BDF-C997-4E16-A7D3-EB81FCC26CBB}.Release|Win32.Build.0 = Release|Win32
+		{0F4F4A61-8C93-442D-9934-7C54D4D3726E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F4F4A61-8C93-442D-9934-7C54D4D3726E}.Debug|Win32.Build.0 = Debug|Win32
+		{0F4F4A61-8C93-442D-9934-7C54D4D3726E}.Release|Win32.ActiveCfg = Release|Win32
+		{0F4F4A61-8C93-442D-9934-7C54D4D3726E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
