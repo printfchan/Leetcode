@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. Reverse Words in a String", "1. Reverse Words in a String\1. Reverse Words in a String.vcxproj", "{06AA8F07-21B2-4513-BC1A-76E32F8C3473}"
 EndProject
@@ -43,6 +43,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17. Candy", "17. Candy\17. Candy.vcxproj", "{768AB546-2C49-48D3-81E1-207E5DF5C4AF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18. Gas Station", "18. Gas Station\18. Gas Station.vcxproj", "{21609C3C-DF0B-4F8E-9D90-83E6C1038943}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19. Clone Graph", "19. Clone Graph\19. Clone Graph.vcxproj", "{5237826F-449C-4863-9E15-2A7A1DFED835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +124,10 @@ Global
 		{21609C3C-DF0B-4F8E-9D90-83E6C1038943}.Debug|Win32.Build.0 = Debug|Win32
 		{21609C3C-DF0B-4F8E-9D90-83E6C1038943}.Release|Win32.ActiveCfg = Release|Win32
 		{21609C3C-DF0B-4F8E-9D90-83E6C1038943}.Release|Win32.Build.0 = Release|Win32
+		{5237826F-449C-4863-9E15-2A7A1DFED835}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5237826F-449C-4863-9E15-2A7A1DFED835}.Debug|Win32.Build.0 = Debug|Win32
+		{5237826F-449C-4863-9E15-2A7A1DFED835}.Release|Win32.ActiveCfg = Release|Win32
+		{5237826F-449C-4863-9E15-2A7A1DFED835}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
