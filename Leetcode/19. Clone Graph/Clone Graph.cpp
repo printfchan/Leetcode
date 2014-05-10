@@ -27,6 +27,7 @@ Visually, the graph looks like the following:
 
 #include <iostream>
 #include <vector>
+#include <map>
 using namespace std;
 
 
@@ -39,7 +40,45 @@ struct UndirectedGraphNode {
 class Solution {
 public:
 	UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {
-		return NULL;
+		UndirectedGraphNode * new_graph = NULL;
+		if (node == NULL)
+			return new_graph;
+
+		map<int, UndirectedGraphNode*> node_map;
+		vector<UndirectedGraphNode*> node_stack;
+
+		new_graph = new UndirectedGraphNode(node->label);
+
+		// insert the new graph into the map
+		node_map[node->label] = new_graph;
+		// insert the old graph into the stack
+		node_stack.push_back(node);
+
+		UndirectedGraphNode * current_node = NULL;
+		UndirectedGraphNode * tmp = NULL;
+		while (!node_stack.empty())
+		{
+			current_node = node_stack.back();
+			node_stack.pop_back();
+
+			for (int i = 0; i < current_node->neighbors.size(); ++i)
+			{
+				// if cannot find label in the map, insert it
+				if (node_map.find(current_node->neighbors[i]->label) == node_map.end())
+				{
+					tmp = new UndirectedGraphNode(current_node->neighbors[i]->label);
+					node_map[current_node->label]->neighbors.push_back(tmp);
+					node_map[tmp->label] = tmp;
+
+					node_stack.push_back(current_node->neighbors[i]);
+				}
+				else{
+					node_map[current_node->label]->neighbors.push_back(node_map[current_node->neighbors[i]->label]);
+				}
+			}
+		}
+
+		return new_graph;
 	}
 };
 
@@ -47,6 +86,10 @@ int main()
 {
 	Solution solution;
 	UndirectedGraphNode* node = NULL;
+	
+	node = new UndirectedGraphNode(0);
+	node->neighbors.push_back(node);
+	node->neighbors.push_back(node);
 
 	solution.cloneGraph(node);
 
