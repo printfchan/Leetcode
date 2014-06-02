@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. Reverse Words in a String", "1. Reverse Words in a String\1. Reverse Words in a String.vcxproj", "{06AA8F07-21B2-4513-BC1A-76E32F8C3473}"
 EndProject
@@ -51,6 +51,24 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21. Palindrome Partitioning", "21. Palindrome Partitioning\21. Palindrome Partitioning.vcxproj", "{895588F9-F8CC-4F7A-8519-29F89AE022BB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22. Surrounded Regions", "22. Surrounded Regions\22. Surrounded Regions.vcxproj", "{DA165DE6-637B-4A63-93A1-F0F98DE1C430}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "23. Sum Root to Leaf Numbers", "23. Sum Root to Leaf Numbers\23. Sum Root to Leaf Numbers.vcxproj", "{0036AEC9-D5ED-4A4A-8CA5-92EF548FAC20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24. Longest Consecutive Sequence", "24. Longest Consecutive Sequence\24. Longest Consecutive Sequence.vcxproj", "{77856B8F-9B03-49B9-8623-A9BE5B6A1A24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25. Word Ladder II", "25. Word Ladder II\25. Word Ladder II.vcxproj", "{CFC56999-8410-46FE-AF33-00872354F893}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26. Word Ladder", "26. Word Ladder\26. Word Ladder.vcxproj", "{FBBED3BD-C1E0-4B4D-8051-3BDBC8518819}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27. Valid Palindrome", "27. Valid Palindrome\27. Valid Palindrome.vcxproj", "{46404EC9-9B4A-4F8A-B0DE-47362C48A5AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "28. Binary Tree Maximum Path Sum", "28. Binary Tree Maximum Path Sum\28. Binary Tree Maximum Path Sum.vcxproj", "{6D779E55-604E-49CF-8A6F-398936C39795}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29. Best Time to Buy and Sell Stock III", "29. Best Time to Buy and Sell Stock III\29. Best Time to Buy and Sell Stock III.vcxproj", "{B7804D9D-FE6F-4779-906B-43657FC6B5E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30. Best Time to Buy and Sell Stock II", "30. Best Time to Buy and Sell Stock II\30. Best Time to Buy and Sell Stock II.vcxproj", "{38580313-4FAD-44FA-A327-EC44004EFF6F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31. Best Time to Buy and Sell Stock", "31. Best Time to Buy and Sell Stock\31. Best Time to Buy and Sell Stock.vcxproj", "{F2C76A53-6AAB-4727-92C9-A24DCCB94068}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,6 +164,42 @@ Global
 		{DA165DE6-637B-4A63-93A1-F0F98DE1C430}.Debug|Win32.Build.0 = Debug|Win32
 		{DA165DE6-637B-4A63-93A1-F0F98DE1C430}.Release|Win32.ActiveCfg = Release|Win32
 		{DA165DE6-637B-4A63-93A1-F0F98DE1C430}.Release|Win32.Build.0 = Release|Win32
+		{0036AEC9-D5ED-4A4A-8CA5-92EF548FAC20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0036AEC9-D5ED-4A4A-8CA5-92EF548FAC20}.Debug|Win32.Build.0 = Debug|Win32
+		{0036AEC9-D5ED-4A4A-8CA5-92EF548FAC20}.Release|Win32.ActiveCfg = Release|Win32
+		{0036AEC9-D5ED-4A4A-8CA5-92EF548FAC20}.Release|Win32.Build.0 = Release|Win32
+		{77856B8F-9B03-49B9-8623-A9BE5B6A1A24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77856B8F-9B03-49B9-8623-A9BE5B6A1A24}.Debug|Win32.Build.0 = Debug|Win32
+		{77856B8F-9B03-49B9-8623-A9BE5B6A1A24}.Release|Win32.ActiveCfg = Release|Win32
+		{77856B8F-9B03-49B9-8623-A9BE5B6A1A24}.Release|Win32.Build.0 = Release|Win32
+		{CFC56999-8410-46FE-AF33-00872354F893}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CFC56999-8410-46FE-AF33-00872354F893}.Debug|Win32.Build.0 = Debug|Win32
+		{CFC56999-8410-46FE-AF33-00872354F893}.Release|Win32.ActiveCfg = Release|Win32
+		{CFC56999-8410-46FE-AF33-00872354F893}.Release|Win32.Build.0 = Release|Win32
+		{FBBED3BD-C1E0-4B4D-8051-3BDBC8518819}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FBBED3BD-C1E0-4B4D-8051-3BDBC8518819}.Debug|Win32.Build.0 = Debug|Win32
+		{FBBED3BD-C1E0-4B4D-8051-3BDBC8518819}.Release|Win32.ActiveCfg = Release|Win32
+		{FBBED3BD-C1E0-4B4D-8051-3BDBC8518819}.Release|Win32.Build.0 = Release|Win32
+		{46404EC9-9B4A-4F8A-B0DE-47362C48A5AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46404EC9-9B4A-4F8A-B0DE-47362C48A5AB}.Debug|Win32.Build.0 = Debug|Win32
+		{46404EC9-9B4A-4F8A-B0DE-47362C48A5AB}.Release|Win32.ActiveCfg = Release|Win32
+		{46404EC9-9B4A-4F8A-B0DE-47362C48A5AB}.Release|Win32.Build.0 = Release|Win32
+		{6D779E55-604E-49CF-8A6F-398936C39795}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D779E55-604E-49CF-8A6F-398936C39795}.Debug|Win32.Build.0 = Debug|Win32
+		{6D779E55-604E-49CF-8A6F-398936C39795}.Release|Win32.ActiveCfg = Release|Win32
+		{6D779E55-604E-49CF-8A6F-398936C39795}.Release|Win32.Build.0 = Release|Win32
+		{B7804D9D-FE6F-4779-906B-43657FC6B5E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7804D9D-FE6F-4779-906B-43657FC6B5E8}.Debug|Win32.Build.0 = Debug|Win32
+		{B7804D9D-FE6F-4779-906B-43657FC6B5E8}.Release|Win32.ActiveCfg = Release|Win32
+		{B7804D9D-FE6F-4779-906B-43657FC6B5E8}.Release|Win32.Build.0 = Release|Win32
+		{38580313-4FAD-44FA-A327-EC44004EFF6F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38580313-4FAD-44FA-A327-EC44004EFF6F}.Debug|Win32.Build.0 = Debug|Win32
+		{38580313-4FAD-44FA-A327-EC44004EFF6F}.Release|Win32.ActiveCfg = Release|Win32
+		{38580313-4FAD-44FA-A327-EC44004EFF6F}.Release|Win32.Build.0 = Release|Win32
+		{F2C76A53-6AAB-4727-92C9-A24DCCB94068}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2C76A53-6AAB-4727-92C9-A24DCCB94068}.Debug|Win32.Build.0 = Debug|Win32
+		{F2C76A53-6AAB-4727-92C9-A24DCCB94068}.Release|Win32.ActiveCfg = Release|Win32
+		{F2C76A53-6AAB-4727-92C9-A24DCCB94068}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

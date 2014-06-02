@@ -8,7 +8,6 @@ int main()
 {
 	Solution solution;
 
-	solution.
 
 	system("pause");
 	return 0;
