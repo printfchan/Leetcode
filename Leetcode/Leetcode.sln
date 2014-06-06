@@ -70,6 +70,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "30. Best Time to Buy and Se
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31. Best Time to Buy and Sell Stock", "31. Best Time to Buy and Sell Stock\31. Best Time to Buy and Sell Stock.vcxproj", "{F2C76A53-6AAB-4727-92C9-A24DCCB94068}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32. Triangle", "32. Triangle\32. Triangle.vcxproj", "{083C26B4-F759-4587-B154-751C30AE2AAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33. Pascal's Triangle II", "33. Pascal's Triangle II\33. Pascal's Triangle II.vcxproj", "{A44203F6-BAA0-48A6-8FB9-AF51F3E43DCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34. Pascal's Triangle", "34. Pascal's Triangle\34. Pascal's Triangle.vcxproj", "{C14F98DD-143E-4D2E-9F9D-732B94680135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -200,6 +206,18 @@ Global
 		{F2C76A53-6AAB-4727-92C9-A24DCCB94068}.Debug|Win32.Build.0 = Debug|Win32
 		{F2C76A53-6AAB-4727-92C9-A24DCCB94068}.Release|Win32.ActiveCfg = Release|Win32
 		{F2C76A53-6AAB-4727-92C9-A24DCCB94068}.Release|Win32.Build.0 = Release|Win32
+		{083C26B4-F759-4587-B154-751C30AE2AAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{083C26B4-F759-4587-B154-751C30AE2AAE}.Debug|Win32.Build.0 = Debug|Win32
+		{083C26B4-F759-4587-B154-751C30AE2AAE}.Release|Win32.ActiveCfg = Release|Win32
+		{083C26B4-F759-4587-B154-751C30AE2AAE}.Release|Win32.Build.0 = Release|Win32
+		{A44203F6-BAA0-48A6-8FB9-AF51F3E43DCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A44203F6-BAA0-48A6-8FB9-AF51F3E43DCD}.Debug|Win32.Build.0 = Debug|Win32
+		{A44203F6-BAA0-48A6-8FB9-AF51F3E43DCD}.Release|Win32.ActiveCfg = Release|Win32
+		{A44203F6-BAA0-48A6-8FB9-AF51F3E43DCD}.Release|Win32.Build.0 = Release|Win32
+		{C14F98DD-143E-4D2E-9F9D-732B94680135}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C14F98DD-143E-4D2E-9F9D-732B94680135}.Debug|Win32.Build.0 = Debug|Win32
+		{C14F98DD-143E-4D2E-9F9D-732B94680135}.Release|Win32.ActiveCfg = Release|Win32
+		{C14F98DD-143E-4D2E-9F9D-732B94680135}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
