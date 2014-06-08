@@ -76,6 +76,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "33. Pascal's Triangle II", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34. Pascal's Triangle", "34. Pascal's Triangle\34. Pascal's Triangle.vcxproj", "{C14F98DD-143E-4D2E-9F9D-732B94680135}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35. Populating Next Right Pointers in Each Node II", "35. Populating Next Right Pointers in Each Node II\35. Populating Next Right Pointers in Each Node II.vcxproj", "{7E38A13B-72FE-4E8B-BB74-6C4F13236FB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36. Populating Next Right Pointers in Each Node", "36. Populating Next Right Pointers in Each Node\36. Populating Next Right Pointers in Each Node.vcxproj", "{0688606C-4780-4322-B671-2EA599A7A4A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "37. Distinct Subsequences", "37. Distinct Subsequences\37. Distinct Subsequences.vcxproj", "{FC6A9730-3887-48DF-BA93-46C844E505FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "38. Flatten Binary Tree to Linked List", "38. Flatten Binary Tree to Linked List\38. Flatten Binary Tree to Linked List.vcxproj", "{8600B91C-C439-40EB-9884-930A2ED6FCC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "39. Path Sum II", "39. Path Sum II\39. Path Sum II.vcxproj", "{5A58E7E5-81B6-4221-8961-3C0EA0C71721}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "40. Path Sum", "40. Path Sum\40. Path Sum.vcxproj", "{BED9338F-80BB-42E3-A415-2C6DB96657B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -218,6 +230,30 @@ Global
 		{C14F98DD-143E-4D2E-9F9D-732B94680135}.Debug|Win32.Build.0 = Debug|Win32
 		{C14F98DD-143E-4D2E-9F9D-732B94680135}.Release|Win32.ActiveCfg = Release|Win32
 		{C14F98DD-143E-4D2E-9F9D-732B94680135}.Release|Win32.Build.0 = Release|Win32
+		{7E38A13B-72FE-4E8B-BB74-6C4F13236FB5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E38A13B-72FE-4E8B-BB74-6C4F13236FB5}.Debug|Win32.Build.0 = Debug|Win32
+		{7E38A13B-72FE-4E8B-BB74-6C4F13236FB5}.Release|Win32.ActiveCfg = Release|Win32
+		{7E38A13B-72FE-4E8B-BB74-6C4F13236FB5}.Release|Win32.Build.0 = Release|Win32
+		{0688606C-4780-4322-B671-2EA599A7A4A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0688606C-4780-4322-B671-2EA599A7A4A8}.Debug|Win32.Build.0 = Debug|Win32
+		{0688606C-4780-4322-B671-2EA599A7A4A8}.Release|Win32.ActiveCfg = Release|Win32
+		{0688606C-4780-4322-B671-2EA599A7A4A8}.Release|Win32.Build.0 = Release|Win32
+		{FC6A9730-3887-48DF-BA93-46C844E505FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC6A9730-3887-48DF-BA93-46C844E505FD}.Debug|Win32.Build.0 = Debug|Win32
+		{FC6A9730-3887-48DF-BA93-46C844E505FD}.Release|Win32.ActiveCfg = Release|Win32
+		{FC6A9730-3887-48DF-BA93-46C844E505FD}.Release|Win32.Build.0 = Release|Win32
+		{8600B91C-C439-40EB-9884-930A2ED6FCC4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8600B91C-C439-40EB-9884-930A2ED6FCC4}.Debug|Win32.Build.0 = Debug|Win32
+		{8600B91C-C439-40EB-9884-930A2ED6FCC4}.Release|Win32.ActiveCfg = Release|Win32
+		{8600B91C-C439-40EB-9884-930A2ED6FCC4}.Release|Win32.Build.0 = Release|Win32
+		{5A58E7E5-81B6-4221-8961-3C0EA0C71721}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A58E7E5-81B6-4221-8961-3C0EA0C71721}.Debug|Win32.Build.0 = Debug|Win32
+		{5A58E7E5-81B6-4221-8961-3C0EA0C71721}.Release|Win32.ActiveCfg = Release|Win32
+		{5A58E7E5-81B6-4221-8961-3C0EA0C71721}.Release|Win32.Build.0 = Release|Win32
+		{BED9338F-80BB-42E3-A415-2C6DB96657B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BED9338F-80BB-42E3-A415-2C6DB96657B7}.Debug|Win32.Build.0 = Debug|Win32
+		{BED9338F-80BB-42E3-A415-2C6DB96657B7}.Release|Win32.ActiveCfg = Release|Win32
+		{BED9338F-80BB-42E3-A415-2C6DB96657B7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
