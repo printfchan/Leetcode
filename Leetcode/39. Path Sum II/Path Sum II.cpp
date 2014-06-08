@@ -34,8 +34,36 @@ struct TreeNode {
 
 class Solution {
 public:
-	vector<vector<int> > pathSum(TreeNode *root, int sum) {
+	void DFS(TreeNode *root, int sum, vector<vector<int>>& result, vector<int>& item)
+	{
+		if (root == NULL)
+			return;
 
+		if (root->left == NULL && root->right == NULL)
+		{
+			if (root->val == sum)
+			{
+				item.push_back(root->val);
+				result.push_back(item);
+				item.pop_back();
+			}
+			return;
+		}
+		item.push_back(root->val);
+		DFS(root->left, sum - root->val, result, item);
+		DFS(root->right, sum - root->val, result, item);
+		item.pop_back();
+
+		return ;
+	}
+
+	vector<vector<int>> pathSum(TreeNode *root, int sum) {
+		vector<vector<int>> result;
+		vector<int> item;
+
+		DFS(root, sum, result, item);
+
+		return result;
 	}
 };
 
@@ -54,8 +82,16 @@ int main()
 	root->right->right->right = new TreeNode(1);
 
 	Solution solution;
-	solution.pathSum(root, 20);
+	vector<vector<int>> result = solution.pathSum(root, 22);
 
+	for (int i = 0; i < result.size(); ++i)
+	{
+		for (int j = 0; j < result[i].size(); ++j)
+		{
+			cout << result[i][j] << ' ';
+		}
+		cout << endl;
+	}
 	system("pause");
 	return 0;
 }

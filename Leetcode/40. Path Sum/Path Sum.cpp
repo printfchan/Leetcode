@@ -31,7 +31,19 @@ struct TreeNode {
 class Solution {
 public:
 	bool hasPathSum(TreeNode *root, int sum) {
+		if (root == NULL)
+			return false;
+		if (root->left == NULL && root->right == NULL)
+		{
+			if (root->val == sum)
+				return true;
+			else
+				return false;
+		}
+		bool left = hasPathSum(root->left, sum - root->val);
+		bool right = hasPathSum(root->right, sum - root->val);
 
+		return left | right;
 	}
 };
 
@@ -46,11 +58,11 @@ int main()
 	root->right->right = new TreeNode(4);
 	root->left->left->left = new TreeNode(7);
 	root->left->left->right = new TreeNode(2);
-	root->right->right->left = new TreeNode(5);
+	//root->right->right->left = new TreeNode(5);
 	root->right->right->right = new TreeNode(1);
 
 	Solution solution;
-	solution.hasPathSum(root, 20);
+	cout << solution.hasPathSum(root, 22);
 
 	system("pause");
 	return 0;
