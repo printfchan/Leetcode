@@ -10,33 +10,53 @@ BST: Binary Search Tree
 #include <vector>
 using namespace std;
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
-
 struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	int val;
+	TreeNode *left;
+	TreeNode *right;
+	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
 class Solution {
 public:
-	TreeNode *sortedListToBST(ListNode *head) {
+	TreeNode *BinSearch(vector<int> &num, int start, int end)
+	{
+		if (start > end)
+			return NULL;
+		if (start == end)
+		{
+			TreeNode* leave = new TreeNode(num[start]);
+			return leave;
+		}
+		
+		int mid = (end + start) >> 1;
+		TreeNode* left = BinSearch(num, start, mid - 1);
+		TreeNode* right = BinSearch(num, mid+1, end);
+		TreeNode* node = new TreeNode(num[mid]);
+		node->left = left;
+		node->right = right;
+		return node;
+	}
 
+	TreeNode *sortedArrayToBST(vector<int> &num) {
+		int size = num.size();
+
+		return BinSearch(num, 0, size - 1);
 	}
 };
 
 int main()
 {
-	ListNode *head = NULL;
+	vector<int> num;
+	num.push_back(1);
+	num.push_back(2);
+	num.push_back(3);
+	num.push_back(4);
+	num.push_back(5);
+	num.push_back(6);
 
 	Solution solution;
-	solution.sortedListToBST(head);
+	solution.sortedArrayToBST(num);
 
 	system("pause");
 	return 0;

@@ -94,6 +94,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "42. Balanced Binary Tree", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "43. Convert Sorted List to Binary Search Tree", "43. Convert Sorted List to Binary Search Tree\43. Convert Sorted List to Binary Search Tree.vcxproj", "{567A33FD-3458-48BE-B5A7-324373719AF8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "44. Convert Sorted Array to Binary Search Tree", "44. Convert Sorted Array to Binary Search Tree\44. Convert Sorted Array to Binary Search Tree.vcxproj", "{C83D7D2D-3F5F-4788-8CDB-299B8158DA24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -272,6 +274,10 @@ Global
 		{567A33FD-3458-48BE-B5A7-324373719AF8}.Debug|Win32.Build.0 = Debug|Win32
 		{567A33FD-3458-48BE-B5A7-324373719AF8}.Release|Win32.ActiveCfg = Release|Win32
 		{567A33FD-3458-48BE-B5A7-324373719AF8}.Release|Win32.Build.0 = Release|Win32
+		{C83D7D2D-3F5F-4788-8CDB-299B8158DA24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C83D7D2D-3F5F-4788-8CDB-299B8158DA24}.Debug|Win32.Build.0 = Debug|Win32
+		{C83D7D2D-3F5F-4788-8CDB-299B8158DA24}.Release|Win32.ActiveCfg = Release|Win32
+		{C83D7D2D-3F5F-4788-8CDB-299B8158DA24}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
