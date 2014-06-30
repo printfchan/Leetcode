@@ -23,15 +23,62 @@ using namespace std;
 
 class Solution {
 public:
-	int numDecodings(string s) {
+	int BinarySearch(const string& s, int begin, int end)
+	{
+		if (begin > end)
+			return 1;
 
-		return 0;
+		if (begin == end)
+		{
+			if (s[begin] != '0')
+				return 1;
+			else
+				return 0;
+		}
+
+		int mid = begin + ((end - begin) >> 1);
+		int count = 0;
+		int left = BinarySearch(s, begin, mid);
+		int right = BinarySearch(s, mid+1, end);
+
+		int subleft = 0;
+		int subright = 0;
+		if (s[mid] != '0' && s.substr(mid, 2) <= "26")
+		{
+			subleft = BinarySearch(s, begin, mid - 1);
+			subright = BinarySearch(s, mid+2, end);
+		}
+
+		if (left * right)
+		{
+			count += (left *right);
+		}
+
+		if (subleft * subright)
+		{
+			count += (subleft * subright);
+		}
+		
+		return count;
+	}
+	int numDecodings(string s) {
+		int length = s.length();
+		if (length == 0)
+			return 0;
+		
+		int count = 0;
+		count = BinarySearch(s, 0, length-1);
+		return count;
 	}
 };
 
 int main()
 {
-	string s = "";
+	string s = "9371597631128776948387197132267188677349946742344217846154932859125134924241649584251978418763151253";
+	//string s = "12";
+	//string s = "0";
+	//string s = "";
+
 	Solution solution;
 	cout << solution.numDecodings(s);
 
