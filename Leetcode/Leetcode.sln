@@ -250,6 +250,28 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "118. Valid Sudoku", "118. V
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "119. Search for a Range", "119. Search for a Range\119. Search for a Range.vcxproj", "{5E640C84-17A8-4462-9646-69F09B9A6F6B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "121. Longest Valid Parentheses", "121. Longest Valid Parentheses\121. Longest Valid Parentheses.vcxproj", "{7C6272BA-383C-4DA4-B79E-8D8BEEAB8F30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "122. Next Permutation", "122. Next Permutation\122. Next Permutation.vcxproj", "{27FC6EC4-042F-4D27-94B3-C8F164A0FEAD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "123. Substring with Concatenation of All Words", "123. Substring with Concatenation of All Words\123. Substring with Concatenation of All Words.vcxproj", "{2693284B-4C8D-439F-8BD5-FB208855A252}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "124. Divide Two Integers", "124. Divide Two Integers\124. Divide Two Integers.vcxproj", "{23DF469D-49A6-494C-92D4-9F951C7F7CC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "125. Implement strStr()", "125. Implement strStr()\125. Implement strStr().vcxproj", "{ECB8282C-95C7-4666-A614-89C92C58C977}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "127. Remove Element", "127. Remove Element\127. Remove Element.vcxproj", "{72784402-0F6D-4C63-B473-F15AFD5CE6C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "128. Reverse Nodes in k-Group", "128. Reverse Nodes in k-Group\128. Reverse Nodes in k-Group.vcxproj", "{2BBE7924-5FC5-469C-8C2C-999167A8C598}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "129. Swap Nodes in Pairs", "129. Swap Nodes in Pairs\129. Swap Nodes in Pairs.vcxproj", "{3A1D4800-9499-4F7B-B8BD-BA8225570ADE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "130. Merge k Sorted Lists", "130. Merge k Sorted Lists\130. Merge k Sorted Lists.vcxproj", "{51D08B1A-D16C-4797-B589-228C487A599E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "131. Generate Parentheses", "131. Generate Parentheses\131. Generate Parentheses.vcxproj", "{18F0E738-CD31-44F5-A630-9BA09B9443DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "132. Valid Parentheses", "132. Valid Parentheses\132. Valid Parentheses.vcxproj", "{768E6BF7-0834-4811-804E-CA366E5E26E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -740,6 +762,50 @@ Global
 		{5E640C84-17A8-4462-9646-69F09B9A6F6B}.Debug|Win32.Build.0 = Debug|Win32
 		{5E640C84-17A8-4462-9646-69F09B9A6F6B}.Release|Win32.ActiveCfg = Release|Win32
 		{5E640C84-17A8-4462-9646-69F09B9A6F6B}.Release|Win32.Build.0 = Release|Win32
+		{7C6272BA-383C-4DA4-B79E-8D8BEEAB8F30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C6272BA-383C-4DA4-B79E-8D8BEEAB8F30}.Debug|Win32.Build.0 = Debug|Win32
+		{7C6272BA-383C-4DA4-B79E-8D8BEEAB8F30}.Release|Win32.ActiveCfg = Release|Win32
+		{7C6272BA-383C-4DA4-B79E-8D8BEEAB8F30}.Release|Win32.Build.0 = Release|Win32
+		{27FC6EC4-042F-4D27-94B3-C8F164A0FEAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27FC6EC4-042F-4D27-94B3-C8F164A0FEAD}.Debug|Win32.Build.0 = Debug|Win32
+		{27FC6EC4-042F-4D27-94B3-C8F164A0FEAD}.Release|Win32.ActiveCfg = Release|Win32
+		{27FC6EC4-042F-4D27-94B3-C8F164A0FEAD}.Release|Win32.Build.0 = Release|Win32
+		{2693284B-4C8D-439F-8BD5-FB208855A252}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2693284B-4C8D-439F-8BD5-FB208855A252}.Debug|Win32.Build.0 = Debug|Win32
+		{2693284B-4C8D-439F-8BD5-FB208855A252}.Release|Win32.ActiveCfg = Release|Win32
+		{2693284B-4C8D-439F-8BD5-FB208855A252}.Release|Win32.Build.0 = Release|Win32
+		{23DF469D-49A6-494C-92D4-9F951C7F7CC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23DF469D-49A6-494C-92D4-9F951C7F7CC2}.Debug|Win32.Build.0 = Debug|Win32
+		{23DF469D-49A6-494C-92D4-9F951C7F7CC2}.Release|Win32.ActiveCfg = Release|Win32
+		{23DF469D-49A6-494C-92D4-9F951C7F7CC2}.Release|Win32.Build.0 = Release|Win32
+		{ECB8282C-95C7-4666-A614-89C92C58C977}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECB8282C-95C7-4666-A614-89C92C58C977}.Debug|Win32.Build.0 = Debug|Win32
+		{ECB8282C-95C7-4666-A614-89C92C58C977}.Release|Win32.ActiveCfg = Release|Win32
+		{ECB8282C-95C7-4666-A614-89C92C58C977}.Release|Win32.Build.0 = Release|Win32
+		{72784402-0F6D-4C63-B473-F15AFD5CE6C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72784402-0F6D-4C63-B473-F15AFD5CE6C4}.Debug|Win32.Build.0 = Debug|Win32
+		{72784402-0F6D-4C63-B473-F15AFD5CE6C4}.Release|Win32.ActiveCfg = Release|Win32
+		{72784402-0F6D-4C63-B473-F15AFD5CE6C4}.Release|Win32.Build.0 = Release|Win32
+		{2BBE7924-5FC5-469C-8C2C-999167A8C598}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BBE7924-5FC5-469C-8C2C-999167A8C598}.Debug|Win32.Build.0 = Debug|Win32
+		{2BBE7924-5FC5-469C-8C2C-999167A8C598}.Release|Win32.ActiveCfg = Release|Win32
+		{2BBE7924-5FC5-469C-8C2C-999167A8C598}.Release|Win32.Build.0 = Release|Win32
+		{3A1D4800-9499-4F7B-B8BD-BA8225570ADE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A1D4800-9499-4F7B-B8BD-BA8225570ADE}.Debug|Win32.Build.0 = Debug|Win32
+		{3A1D4800-9499-4F7B-B8BD-BA8225570ADE}.Release|Win32.ActiveCfg = Release|Win32
+		{3A1D4800-9499-4F7B-B8BD-BA8225570ADE}.Release|Win32.Build.0 = Release|Win32
+		{51D08B1A-D16C-4797-B589-228C487A599E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51D08B1A-D16C-4797-B589-228C487A599E}.Debug|Win32.Build.0 = Debug|Win32
+		{51D08B1A-D16C-4797-B589-228C487A599E}.Release|Win32.ActiveCfg = Release|Win32
+		{51D08B1A-D16C-4797-B589-228C487A599E}.Release|Win32.Build.0 = Release|Win32
+		{18F0E738-CD31-44F5-A630-9BA09B9443DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18F0E738-CD31-44F5-A630-9BA09B9443DC}.Debug|Win32.Build.0 = Debug|Win32
+		{18F0E738-CD31-44F5-A630-9BA09B9443DC}.Release|Win32.ActiveCfg = Release|Win32
+		{18F0E738-CD31-44F5-A630-9BA09B9443DC}.Release|Win32.Build.0 = Release|Win32
+		{768E6BF7-0834-4811-804E-CA366E5E26E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{768E6BF7-0834-4811-804E-CA366E5E26E0}.Debug|Win32.Build.0 = Debug|Win32
+		{768E6BF7-0834-4811-804E-CA366E5E26E0}.Release|Win32.ActiveCfg = Release|Win32
+		{768E6BF7-0834-4811-804E-CA366E5E26E0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

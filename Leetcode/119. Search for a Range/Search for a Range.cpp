@@ -22,10 +22,10 @@ public:
 	int BiSearch(int A[], int n, int target, bool first)
 	{
 		if (n < 1)
-			return 0;
+			return -1;
 		if (n == 1)
 		{
-			return (A[0] < target ? 1 : 0);
+			return (A[0] == target ? 0 : -1);
 		}
 
 		int left, right;
@@ -78,8 +78,19 @@ public:
 				left = mid + 1;
 			}
 		}
-		if (A[left] != target)
+		if (first)
 		{
+			if (A[left] == target)
+			{
+				return left;
+			}
+			return -1;
+		}
+		else{
+			if (A[right] == target)
+			{
+				return right;
+			}
 			return -1;
 		}
 	}
@@ -123,7 +134,7 @@ int main()
 	int target = 4;*/
 
 	int A[] = {1, 4};
-	int target = 4;
+	int target = 3;
 
 	Solution solution;
 	vector<int> result = solution.searchRange(A, sizeof(A) / sizeof(A[0]), target);
