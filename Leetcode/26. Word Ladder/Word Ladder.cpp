@@ -22,107 +22,56 @@ All words contain only lowercase alphabetic characters.
 
 #include <iostream>
 #include <vector>
-#include <unordered_set>
 #include <string>
+#include <unordered_set>
 #include <unordered_map>
+#include <queue>
 using namespace std;
 
 class Solution {
 public:
 	int ladderLength(string start, string end, unordered_set<string> &dict) {
-		vector<string> item;
+		if (IsNear(start, end) == 1)
+			return 2;
+		
+		// 记录从start到当前字符串的距离
+		unordered_map<string, int> mp;
+		// 记录已经走过的字符串
+		queue<string> trans_queue;
 
-		unordered_map<string, vector<string>> pre;
-		unordered_map<string, vector<string>>::iterator mit;
-
+		trans_queue.push(start);
 		dict.insert(end);
+		mp[start] = 1;
 
-		unordered_set<string>::iterator sit;
-		for (sit = dict.begin(); sit != dict.end(); ++sit)
+		while (!trans_queue.empty())
 		{
-			pre[*sit] = item;
-		}
+			string last = trans_queue.front();
+			trans_queue.pop();
 
-		unordered_set<string> used_dict;
-		unordered_set<string>::iterator suit;
-		bool find = false;
-		int level = 0;
-		for (sit = dict.begin(); sit != dict.end();)
-		{
-			if (IsNear(start, *sit) == 1)
+			string query = last;
+			int dist = mp[last];
+			for (int i = 0; i < last.length(); ++i)
 			{
-				pre[*sit].push_back(start);
-				used_dict.insert(*sit);
-				if (*sit == end)
+				query = last;
+				for (int j = 0; j < 26; ++j)
 				{
-					find = true;
-					level = 2;
-				}
-				sit = dict.erase(sit);
-			}
-			else{
-				sit++;
-			}
-		}
-
-		if (find)
-		{
-			return level;
-		}
-
-		level = 2;
-		unordered_set<string> tmp_set;
-		while (true)
-		{
-			level++;
-			bool hasNear = false;
-			for (sit = dict.begin(); sit != dict.end();)
-			{
-				hasNear = false;
-				for (suit = used_dict.begin(); suit != used_dict.end(); ++suit)
-				{
-					if (IsNear(*suit, *sit) == 1)
+					query[i] = 'a' + j;
+					if (query == end)
 					{
-						pre[*sit].push_back(*suit);
-						tmp_set.insert(*sit);
-						if (*sit == end)
-						{
-							find = true;
-						}
-						hasNear = true;
+						return dist + 1;
+					}
+
+					if (dict.find(query) != dict.end() && mp.find(query) == mp.end())
+					{
+						trans_queue.push(query);
+						mp[query] = dist + 1;
 					}
 				}
-				if (find)
-				{
-					return level;
-				}
-				if (hasNear)
-					sit = dict.erase(sit);
-				else
-					++sit;
-			}
-
-			if (find)
-			{
-				return level;
-			}
-			used_dict.clear();
-			for (sit = tmp_set.begin(); sit != tmp_set.end();)
-			{
-				used_dict.insert(*sit);
-				dict.erase(*sit);
-				sit = tmp_set.erase(sit);
-			}
-
-			if (used_dict.empty() || dict.empty())
-			{
-				return 0;
 			}
 		}
-
-		return level;
+		return 0;
 	}
-	
+
 	int IsNear(const string& a, const string& b)
 	{
 		int len = a.length();
@@ -132,10 +81,6 @@ public:
 			if (a[i] != b[i])
 			{
 				dist++;
-				if (dist > 1)
-				{
-					return 2;
-				}
 			}
 		}
 		return dist;
